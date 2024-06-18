@@ -134,9 +134,9 @@ def generate_bill(chosen_items, total_cost):
         for item, price in section_items.items():
             bill_content+=f"  {item}: Rs.{price}\n"    
     bill_content+=f"\nTotal cost of all items: Rs.{total_cost}\n"  
-    f=open("bill.txt", "w") 
+    f=open("bills.txt", "w") 
     f.write(bill_content)    
-    print("Bill generated and saved as 'bill.txt'.")
+    print("Bill generated and saved as 'bills.txt'.")
     return bill_content   
 def send_email(bill_content):
     recipient_email=input("Please enter your Gmail ID: ")
