@@ -138,7 +138,8 @@ def generate_bill(chosen_items, total_cost):
     f.write(bill_content)    
     print("Bill generated and saved as 'bill.txt'.")
     return bill_content   
-def send_email(bill_content, recipient_email):
+def send_email(bill_content):
+    recipient_email=input("Please enter your Gmail ID: ")
     sender_email="aishwaryar0386@gmail.com"
     sender_password="sender_password"    
     subject="Super Market Bill"
@@ -154,8 +155,7 @@ def send_email(bill_content, recipient_email):
     except:
         print(f"Failed to send email..")
 def main():
-    recipient_email=input("Please enter your Gmail ID: ")
     chosen_items, total_cost=choose_items()
     bill_content=generate_bill(chosen_items, total_cost)
-    send_email(bill_content, recipient_email)
+    send_email(bill_content)
 main()
