@@ -47,7 +47,6 @@ def choose_items():
                     print("Please enter a valid number")
             else:
                 print("Please choose from the available options")
-
         total=sum(chosen_section_items.values())
         return section_name, chosen_section_items, total
     # Household and cleaning section
@@ -71,7 +70,6 @@ def choose_items():
                     print("Please enter a valid number")
             else:
                 print("Please choose from the available options")
-
         total=sum(chosen_section_items.values())
         return section_name, chosen_section_items, total
     # Sweets and snacks section
@@ -118,7 +116,6 @@ def choose_items():
                     print("Please enter a valid number")
             else:
                 print("Please choose from the available options")
-
         total=sum(chosen_section_items.values())
         return section_name, chosen_section_items, total
     sections=[dairy_product(),cooking_ingredients(),household_and_cleaning(),sweets_and_snacks(),baby_product()]
