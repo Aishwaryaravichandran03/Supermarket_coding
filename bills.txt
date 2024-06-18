@@ -1,0 +1,24 @@
+Super Market Bill:
+2024-06-18 15:35:53
+
+Dairy Products:
+  cone icecream: Rs.20
+  milk: Rs.12
+Cooking Ingredients:
+  milagu: Rs.23
+  mutton masala: Rs.20
+  garam masala: Rs.20
+  mr_gold oil: Rs.55
+Household and Cleaning Things:
+  soap: Rs.40
+  paste: Rs.20
+  detergent powder: Rs.50
+Sweets and Snacks:
+  kitkat: Rs.25
+  lays: Rs.20
+  milky bar: Rs.10
+Baby Products:
+  cerelac: Rs.200
+  wipes: Rs.100
+
+Total cost of all items: Rs.615
